@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/", // ← ✅ This line ensures correct asset path after build
+  base: "/", // ✅ necessary for Netlify build
 
   server: {
     host: "::",
