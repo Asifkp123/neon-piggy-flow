@@ -61,6 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				piggy: {
+					background: '#0B0C0E',
+					primary: '#1FDB6B',
+					card: '#1B1D1F',
+					secondary: '#3FE896',
+					accent: '#00E38C',
+					text: '#FFFFFF',
+					textMuted: '#A6A6A6'
 				}
 			},
 			borderRadius: {
